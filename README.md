@@ -1,6 +1,6 @@
 # Telco Customer Churn Prediction
 
-一个面向人工智能工程师岗位的端到端客户流失预测项目，使用 IBM 公开的
+一个端到端客户流失预测项目，使用 IBM 公开的
 Telco Customer Churn 数据集完成数据清洗、特征工程、模型比较、阈值预测、
 模型持久化和 FastAPI（法斯特诶皮艾；接口服务框架）部署。
 
@@ -139,14 +139,6 @@ telco-churn-ml-service/
 └── tests/                     # 数据、模型和接口测试
 ```
 
-## 简历写法
-
-```text
-基于 IBM 公开 Telco Customer Churn 数据完成客户流失预测项目，使用 Python、
-Scikit-learn 和 FastAPI 构建从数据处理、特征工程、模型训练到接口部署的完整流程。
-通过五折分层交叉验证比较 Logistic Regression 与 Random Forest，最终模型 ROC-AUC
-达到 84.14%，召回率达到 78.34%；完成模型持久化、Pydantic 参数校验和自动化接口测试。
-```
 
 ## 项目边界
 
