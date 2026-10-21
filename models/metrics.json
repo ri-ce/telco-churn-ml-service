@@ -1,0 +1,34 @@
+{
+  "model_name": "logistic_regression",
+  "accuracy": 0.7374,
+  "precision": 0.5034,
+  "recall": 0.7834,
+  "f1": 0.613,
+  "roc_auc": 0.8414,
+  "confusion_matrix": [
+    [
+      746,
+      289
+    ],
+    [
+      81,
+      293
+    ]
+  ],
+  "training_rows": 5634,
+  "test_rows": 1409,
+  "dataset_rows": 7043,
+  "churn_rate": 0.2654,
+  "model_comparison": {
+    "logistic_regression": {
+      "cv_roc_auc_mean": 0.846,
+      "cv_roc_auc_std": 0.0124
+    },
+    "random_forest": {
+      "cv_roc_auc_mean": 0.8435,
+      "cv_roc_auc_std": 0.0084
+    }
+  },
+  "dataset_sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "trained_at": "2026-10-21T14:12:45+00:00"
+}
